@@ -1,0 +1,117 @@
+*{
+    max-width: 100vw;
+}
+
+body{
+    font-family: 'GT Eesti Display',-apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+}
+
+#title{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: large ;
+}
+ 
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#nam{
+    text-align: center;
+    font-size: large;
+    font-weight: 900;
+    line-height: 25px;
+    background-color: #ffeab6;
+}
+
+#origin{
+    font-size: 13px;
+    padding: 0px 10px;
+    background-color: rgb(156, 236, 236);
+}
+
+.waw{
+    margin-top: -7px;
+}
+
+.direct{
+    background-color: rgb(156, 236, 236);
+}
+
+h2{
+    padding-left: 20px;
+    margin-top: 1px;
+    background-color: #ffeab6;
+}
+
+li{
+    margin-left: -19px ;
+    font-size: 14px;
+    padding: 0px 5px;
+}
+
+.ing{
+    margin-top: -15px;
+}
+
+.cards{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 20px 30px;
+    background-color: #ffeab6;
+}
+
+.card_image{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transform-origin: 0.3s;
+    border-radius: 10px;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+} 
+
+#title{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: x-large ;
+}
+ 
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    transform: scale(1.1);
+}
+
+p{
+    font-size: 15px;
+}
+
+.prep{
+    font-size: 5px;
+    font-weight: bold;
+    line-height: 4px;
+    padding-left: 20px;
+    margin-bottom: -30px;
+}
+
+.foot{
+    background-color: rgb(156, 236, 236);;
+}
+
+.tit{
+    background-color: #ffeab6;
+}
